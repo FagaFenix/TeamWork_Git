@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
 body {
-    background-image: url("/Multimedia/Img/headbackground.jpg");
+    background-image: url("/Multimedia/Img/headbackground2.jpg");
 }
 
 .headerTitle {
     margin: 0px;
     text-align: center;
+}
+
+.headerTitle img {
+    width: 50%;
+    opacity: 0.8;
 }
 
 .navbar-nav li {
@@ -14,7 +19,7 @@ body {
 }
 
 .navbar-nav li a {
-    color: rgb(22, 199, 140)!important;
+    color: rgb(23, 134, 226)!important;
 }
 
 .navbar-nav li a:hover {
