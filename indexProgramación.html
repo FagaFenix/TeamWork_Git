@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Giraldo Música, Fotografía y Programación</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/StylesFooter.css">
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="Styles/Coding_Site/StylesCodingSite.css">
+    <style>
+        a {
+            text-decoration: none
+        }
+    </style>
+    <link rel="icon" href="Multimedia/Img/Logo_Felipe_Giraldo.png">
+</head>
+
+<body class="codingBody">
+
+    <header class="headerTitle">
+        <img src="multimedia/Img/Logo_Felipe_Giraldo.png" alt="Felipe Giraldo">
+    </header>
+
+    <!-- Bootstrap NavMenu -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd25;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item interactiveHover">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Música</a>
+                    </li>
+                    <li class="nav-item interactiveHover">
+                        <a class="nav-link" href="./indexFotografía.html">Fotografía</a>
+                    </li>
+                    <li class="nav-item interactiveHover">
+                        <a class="nav-link" href="./indexProgramación.html">Programación</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Until HERE -->
+    <div class="container">
+        <div class="block">
+            <h1 class="title_Coding">Sitio en Construcción</h1>
+            <h2 class="title_Coding2">Mientras tanto, hagamos un pequeño juego creado en JavaScript</h2>
+            <p class="text_game">Piensa en un número de dos cifras, súmalo entre sí y luego réstale el número que te dio al primer número que pensaste.
+                <br> Ejemplo: Piensas: 56. Entonces 5 + 6 = 11; Luego 56-11=45. <br> Debes decrime uno de los dos números, es decir el 4 o el 5, yo podré adivinar el otro no importa cuál me digas.
+            </p>
+        </div>
+    </div>
+    <button onclick=preGuntaNumero(); class="button-js">¡JUGUEMOS!</button>
+
+    <!-- Footer Boostrap -->
+    <figure class="parteFooter" style="padding-top: 3%;">
+        <div class="">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 col-md-6">
+                            <h3 Class="tituloMapa">¿Dónde estamos?</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15901.975337999402!2d-74.05806427254696!3d4.8565807362461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e407807341536f1%3A0x723ce0a88b990d4d!2sCentro%20Empresarial%20Centro%20Ch%C3%ADa!5e0!3m2!1ses!2sco!4v1614704824284!5m2!1ses!2sco"
+                                width="80%" height="80%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="col-sm-12 col-md-6 form">
+                            <form onsubmit="return noRefresh()" action="">
+                                <div class="block">
+                                    <h3 class="tituloForm">Preguntas y contacto</h3>
+                                    <div class="col col">
+                                        <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Nombre">
+                                    </div>
+                                    <div class="col col">
+                                        <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
+                                    </div>
+                                    <div class="col col">
+                                        <input type="tel" class="form-control" name="Teléfono" id="Teléfono" pattern="[0-9]{10}" placeholder="Teléfono Celular">
+                                    </div>
+                                    <div class="col col">
+                                        <textarea class="form-control textarea" name="textarea" id="Textarea" maxlength="300" placeholder="preguntas, contactos y cotizaciones de trabajo" style="resize: none"></textarea>
+                                        <label for="textarea"></label>
+                                        <input type="submit" onclick="validateForm()" id="button" value="Enviar">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="CopyRight">
+                    <h3> Sitio creado por </h3>
+                    <a target="_blank" href="https://linktr.ee/pipeworshiper ">
+                        <img src="Multimedia/Img/Logo_Felipe_Giraldo.png" width="70px" alt="Felipe Andrés Giraldo Arévalo"></a>
+                    <p>Con el propósito de crear un protafólio personal con todos los trabajos y habildiades multimedia que posee el autor relacionadas a la revolución 4.0 tales como la música, creación de contenido audiovisual y su publicación en los canales
+                        digitales en Internet como social media, video streaming or web devolpment.</p>
+                </div>
+                <h4 class="CopyRight2">COPYRIGHT 2021 FELIPE GIRALDO<br>TODOS LOS DERECHOS RESERVADOS. BOGOTÁ - COLOMBIA
+                </h4>
+            </footer>
+        </div>
+    </figure>
+    <!-- Until Here -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./Scripts/Scritps.js"></script>
+    <script async src="//www.instagram.com/embed.js"></script>
+    <script type="text/javascript" src="/Scripts/ScriptsCodingSite.js">
+    </script>
+</body>
+
+</html>
+
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
+body {
+    background-image: url("/Multimedia/Img/headbackground.jpg");
+}
+
+.headerTitle {
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar-nav li {
+    font-family: 'Rock Salt', cursive;
+    padding: 25px;
+}
+
+.navbar-nav li a {
+    color: rgb(22, 199, 140)!important;
+}
+
+.navbar-nav li a:hover {
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+}
+
+.interactiveHover:hover {
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+}
+
+.biographyText {
+    font-family: 'RocknRoll One', sans-serif;
+    padding: 5%;
+}
